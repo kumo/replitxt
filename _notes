@@ -1,0 +1,3 @@
+when replitxt is quit with tracker and tracker restarts, replitxt shows the desktop colour of the workspace it was on when it quit.
+
+could try hiding and showing instead... of course AttachedToWindow is only called the first time (I believe) and not everytime the shelf is reloaded...
