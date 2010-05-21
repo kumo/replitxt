@@ -82,7 +82,7 @@ MessengerForShelf()
 	request.AddSpecifier("Messenger");
 	request.AddSpecifier("Shelf");
 	request.AddSpecifier("View", "PoseView");
-	request.AddSpecifier("Window", "Desktop");
+	request.AddSpecifier("Window", "/boot/home/Desktop");
 
 	// create a messenger for the tracker
 	tracker_messenger = BMessenger("application/x-vnd.Be-TRAK", -1);
